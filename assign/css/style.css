@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.firstContainer {
+    background:linear-gradient(to top,rgba(64, 105, 171, 0.112)50%,rgba(64, 105, 171, 0.112)50%), url(../1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: auto;
+}
+
+#topNavbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.links {
+    display: flex;
+}
+
+.links li {
+    list-style: none;
+}
+
+.links a {
+    text-decoration: none;
+    list-style: none;
+    margin: 0px 10px;
+    color: white;
+    border: 1px solid white transparent;
+    padding: 5px 25px;
+    transition: .7s;
+}
+
+.links a:hover {
+    background-color: rgb(64, 105, 171);
+    color: whitesmoke;
+    font-size: 1.1rem;
+}
+
+.logo {
+    width: 200px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    color: white;
+}
+
+.content p {
+    width: 35rem;
+    text-align: center;
+    padding: 15px 0;
+
+}
+
+.firstBtn {
+    cursor: pointer;
+    padding: 8px 23px;
+    border-radius: 0.4rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgb(64, 105, 171);
+    color: white;
+    transition: 1s;
+}
+
+.content h1 {
+    font-size: 4rem;
+}
+
+.firstBtn:hover {
+    transform: skew(10deg);
+    background: white;
+    color: rgb(64, 105, 171);
+}
+
+.secondContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.secondContainer h1 {
+    color: rgb(64, 105, 171);
+    font-size: 3.2rem;
+}
+
+.secondContainer p {
+    width: 35rem;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.secondBtn {
+    cursor: pointer;
+    padding: 8px 23px;
+    border-radius: 0.4rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    background: transparent;
+    border: 2px solid rgb(64, 105, 171);
+    color: rgb(64, 105, 171);
+    transition: 1s;
+}
+
+.secondContainer hr {
+    width: 75px;
+    height: 4px;
+    border-radius: 3rem;
+    border: none;
+    background-color: rgb(64, 105, 171);
+}
+
+.secondBtn:hover {
+    background-color: rgb(64, 105, 171);
+    color: white;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(64, 105, 171);
+    color: white;
+}
+
+.card i {
+    font-size: 40px;
+}
+
+.card h2 {
+    font-size: 2rem;
+    padding: 15px;
+}
+.card p{
+    font-size: 1rem;
+}
+
+/* .card{
+    padding: 10px;
+} */
+.card {
+    background-color: rgb(64, 105, 171);
+    color: white;
+    font-size: 1.1rem;
+    height: 100%;
+    width: 410px;
+    padding: 2rem;
+}
+
+.thirdContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+}
+
+.thirdContainer h1 {
+    color: rgb(64, 105, 171);
+    font-size: 3.2rem;
+}
+
+.thirdContainer hr {
+    width: 65px;
+    height: 4px;
+    border-radius: 3rem;
+    border: none;
+    background-color: rgb(64, 105, 171);
+}
+
+.thirdContainer p {
+    width: 35rem;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.firstRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+}
+
+.firstRow li {
+    display: flex;
+    margin: 1%;
+    padding: 5px 80px 5px 10px;
+    color: rgb(64, 105, 171);
+    background-color: rgb(199, 199, 199);
+    align-items: center;
+}
+
+.firstRow p {
+    color: black;
+    font-size: 20px;
+}
+
+.firstRow i {
+    font-size: 35px;
+    margin-right: 20px;
+}
+
+.secondRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+}
+
+.secondRow li {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1%;
+    padding: 5px 80px 5px 10px;
+    color: rgb(64, 105, 171);
+    background-color: rgb(199, 199, 199);
+    align-items: center;
+}
+
+.secondRow i {
+    font-size: 35px;
+    margin-right: 20px;
+}
+
+.secondRow p {
+    color: black;
+    font-size: 20px;
+}
+
+.forthContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(64, 105, 171);
+    color: white;
+    padding: 50px 40px;
+    flex-wrap: wrap;
+    margin-top: 45px;
+}
+
+.forthContainer li {
+    list-style: none;
+    text-align: center;
+}
+
+.forthContainer i {
+    font-size: 2.5rem;
+}
+
+.num {
+    padding: 10px;
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+.fContent {
+    font-size: .9rem;
+}
+
+.fifthContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+
+.fifthContainer h1 {
+    color: rgb(64, 105, 171);
+    font-size: 3.2rem;
+}
+
+.fifthContainer hr {
+    width: 65px;
+    height: 4px;
+    border-radius: 3rem;
+    border: none;
+    background-color: rgb(64, 105, 171);
+}
+
+.fifthContainer p {
+    width: 35rem;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.fifthLink {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fifthLink li {
+    list-style: none;
+}
+
+.fifthLink a {
+    text-decoration: none;
+    color: rgb(64, 105, 171);
+    margin: 40px;
+    padding: 10px 25px;
+    font-weight: bold;
+    border: 1px solid rgb(64, 105, 171) transparent;
+}
+
+.fifthLink a:hover {
+    background-color: rgb(64, 105, 171);
+    color: white;
+}
+
+.images {
+    padding: 30px;
+    text-align: center;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.images li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.images img {
+    text-align: center;
+    height: 200px;
+    width: 300px;
+}
